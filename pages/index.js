@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Header from '../components/header'
+import Headericon from '../components/Headericon'
 import Navbar from '../components/Navbar'
 import Result from '../components/Result'
 
@@ -17,6 +18,7 @@ export default function Home() {
     
     {/* Navbar */}
       <Navbar/>
+      <Headericon/>
     
     {/* Result */}
       <Result/>
